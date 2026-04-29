@@ -1,65 +1,78 @@
-# My Portfolio Website - Overview 🚀
+# Jai Koushik Kotra — Portfolio 🧑‍💻
 
-This repository contains the open-source version of my personal portfolio website.  
-Feel free to explore the code and use it for learning and inspiration.
+My personal portfolio website built with React, Three.js, and GSAP. It features an interactive 3D character, smooth scroll animations, and a physics-based tech stack visualizer.
 
----
-
-## ⚠️ Usage Notice
-
-This project is shared for learning purposes only.
-
-Please do NOT:
-- Clone or replicate the full website or design
-- Repost it with minor content changes
-- Use this project for commercial/client work
-- Create tutorials or content using this exact project
-
-If you use parts of the code, you must provide proper credit linking back to the original repository.
-
-Build your own version — don’t just copy.
-
-— Moncy Yohannan
+🔗 **Live:** *coming soon*
 
 ---
 
-## 🛠️ Instructions
+## ✨ Highlights
 
-I have modified the GSAP Club plugins using trial versions.  
-⚠️ Note: Trial plugins cannot be used for production or hosting.
-
-For official GSAP Club plugins, refer here:  
-https://gsap.com/docs/v3/Installation/
+- **Interactive 3D Avatar** — A rigged character that tracks your cursor in real-time
+- **Physics-Based Skills Section** — Bouncing tech spheres you can interact with using Rapier physics
+- **Smooth Scroll Animations** — Powered by GSAP ScrollSmoother and ScrollTrigger
+- **Horizontal Project Carousel** — Scroll-driven showcase of my work
+- **Fully Responsive** — Adapts across desktop, tablet, and mobile
 
 ---
 
 ## ⚙️ Tech Stack
 
-React • TypeScript • GSAP • Three.js • WebGL • HTML • CSS • JavaScript
+| Category | Tools |
+|----------|-------|
+| Frontend | React, TypeScript, CSS |
+| 3D / WebGL | Three.js, React Three Fiber, Drei, Rapier |
+| Animation | GSAP, ScrollTrigger, ScrollSmoother |
+| Build | Vite |
 
 ---
 
-## 🎨 Assets Usage
+## 🚀 Getting Started
 
-Some 3D assets included in this repository are free to use for learning purposes.
+```bash
+# Clone the repo
+git clone https://github.com/koushikjai/Portfolio.git
+cd Portfolio
 
-However:
+# Install dependencies
+npm install
 
-- The original 3D avatar used on my live portfolio is NOT included in this repository
-- That avatar is a custom asset created over ~1 month
-- It is not open source and not available for reuse
+# Start dev server
+npm run dev
+```
 
-Any usage, extraction, or redistribution of that avatar from my live website is strictly prohibited.
+> **Note:** This project uses GSAP trial plugins (ScrollSmoother). These work in development but cannot be used in production hosting. For production, you'll need a [GSAP Club](https://gsap.com/pricing/) membership.
 
 ---
 
-![Protfolio-Preview](https://github.com/user-attachments/assets/3c4557e7-6392-4928-b8a9-7b2476ef4edd)
+## 📂 Project Structure
+
+```
+src/
+├── components/
+│   ├── Character/     # 3D avatar scene, animations, lighting
+│   ├── Landing.tsx    # Hero section
+│   ├── About.tsx      # About me
+│   ├── WhatIDo.tsx    # Skills breakdown
+│   ├── Career.tsx     # Experience timeline
+│   ├── Work.tsx       # Projects showcase
+│   ├── TechStack.tsx  # Physics-based skills visualizer
+│   └── Contact.tsx    # Contact & socials
+├── context/           # Loading state provider
+├── data/              # Bone animation data
+└── assets/            # Static assets
+```
+
+---
+
+## 📬 Contact
+
+- **Email:** koushikjai138@gmail.com
+- **LinkedIn:** [jai-koushik](https://www.linkedin.com/in/jai-koushik-2243073b3/)
+- **GitHub:** [koushikjai](https://github.com/koushikjai)
 
 ---
 
 ## 📄 License
 
-This project is licensed under the Personal Portfolio License (PPL) v1.0.
-
-See the LICENSE file for full details
-
+This project is open source. Original template by [Moncy Yohannan](https://github.com/MoncyDev/Portfolio-Website), customized and extended by Jai Koushik Kotra.
