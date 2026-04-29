@@ -107,7 +107,7 @@ const Work = () => {
               <h4>Tools and features</h4>
               <p>Python, OpenCV, FaceNet</p>
             </div>
-            <WorkImage image="/images/placeholder.webp" alt="DRDO Face Recognition" />
+            <WorkImage image="/images/Face recognition.png" alt="DRDO Face Recognition" />
           </div>
         </div>
       </div>
