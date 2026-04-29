@@ -53,23 +53,62 @@ const Work = () => {
           My <span>Work</span>
         </h2>
         <div className="work-flex">
-          {[...Array(6)].map((_value, index) => (
-            <div className="work-box" key={index}>
-              <div className="work-info">
-                <div className="work-title">
-                  <h3>0{index + 1}</h3>
-
-                  <div>
-                    <h4>Project Name</h4>
-                    <p>Category</p>
-                  </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>01</h3>
+                <div>
+                  <h4>QueueLess</h4>
+                  <p>Backend System</p>
                 </div>
-                <h4>Tools and features</h4>
-                <p>Javascript, TypeScript, React, Threejs</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt="" />
+              <h4>Tools and features</h4>
+              <p>Spring Boot, MySQL, REST APIs</p>
             </div>
-          ))}
+            <WorkImage image="/images/Queueless.png" alt="QueueLess" />
+          </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>02</h3>
+                <div>
+                  <h4>Sanchaari</h4>
+                  <p>Full-Stack Platform</p>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>Full-Stack, APIs, Real-Time Data</p>
+            </div>
+            <WorkImage image="/images/Sanchaari.png" alt="Sanchaari" />
+          </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>03</h3>
+                <div>
+                  <h4>Virtual Click</h4>
+                  <p>AR / Computer Vision</p>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>OpenCV, MediaPipe, Python</p>
+            </div>
+            <WorkImage image="/images/Virtual Click.png" alt="Virtual Click" />
+          </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>04</h3>
+                <div>
+                  <h4>DRDO Face Recognition</h4>
+                  <p>Surveillance System</p>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>Python, OpenCV, FaceNet</p>
+            </div>
+            <WorkImage image="/images/placeholder.webp" alt="DRDO Face Recognition" />
+          </div>
         </div>
       </div>
     </div>

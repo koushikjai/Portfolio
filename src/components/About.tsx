@@ -6,9 +6,11 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          I'm a Software Engineer from India with experience building scalable
+          systems in C++ and Python. I've worked at Hexagon R&D on production
+          backend and UI systems, and at DRDO building real-time computer vision
+          solutions. I'm passionate about clean architecture, performance
+          optimization, and solving complex engineering challenges.
         </p>
       </div>
     </div>
